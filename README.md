@@ -14,7 +14,6 @@ A full-stack food donation platform with web, mobile, and backend services.
 
 - `server/` - Express API, MongoDB models, auth, role-based routes
 - `client/` - Web frontend (React + Vite)
-- `apps/mobile/` - Mobile frontend (React Native + Expo)
 - `packages/shared/` - Shared constants, types, and utilities
 
 ## Prerequisites
@@ -65,27 +64,6 @@ JWT_SECRET=change_this_to_a_secure_secret
 JWT_EXPIRES_IN=7d
 ```
 
-3. For mobile app backend URL, update `apps/mobile/src/config/env.ts` with your local machine IP when testing on a real device.
-
-## Run MongoDB
-
-- Windows:
-
-```bash
-mongod
-```
-
-- macOS (Homebrew):
-
-```bash
-brew services start mongodb-community
-```
-
-- Linux:
-
-```bash
-sudo systemctl start mongod
-```
 
 ## Run the Project
 
